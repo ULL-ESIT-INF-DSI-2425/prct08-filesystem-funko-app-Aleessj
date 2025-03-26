@@ -1,0 +1,34 @@
+{
+  "name": "funko_app",
+  "version": "1.0.0",
+  "main": "funko_app.ts",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/funko_app.js\"",
+    "doc": "typedoc",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage --coverage.include src/**/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/yargs": "^17.0.33",
+    "@vitest/coverage-v8": "^3.0.5",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-tsdoc": "^0.4.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "tsc-watch": "^6.2.1",
+    "typedoc": "^0.27.6",
+    "typescript-eslint": "^8.23.0",
+    "vitest": "^3.0.5"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "yargs": "^17.7.2"
+  }
+}
